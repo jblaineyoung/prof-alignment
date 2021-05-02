@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UT Professor Alignment</title>
+</head>
+<body>
+  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script>
+    window.onload = function () {
+    
+    var chart = new CanvasJS.Chart("chartContainer", {
+      animationEnabled: true,
+      zoomEnabled: true,
+      title:{
+        text: "UT Professor Alignment"
+      },
+      axisX: {
+        title:"Wholesomeness",
+        minimum: 0,
+        maximum: 10
+      },
+      axisY:{
+        title: "Memeability",
+        minimum: 0,
+        maximum: 10
+      },
+      axisN:{
+        title: "Name",
+      },
+      data: [{
+        type: "scatter",
+        toolTipContent: "<b>{n} </b><br/><i>Wholesomeness: </i>{x} <br/><i>Memeability: </i>{y}",
+        dataPoints: [
+          { n: "Prof 1", x: 1, y: 1, },
+          { n: "Prof 2", x: 2, y: 2 },
+          { n: "Prof 3", x: 3, y: 3 },
+        ]
+      }]
+    });
+    chart.render();
+    
+    }
+  </script>
+</body>
+</html>
