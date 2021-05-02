@@ -4,7 +4,7 @@ Like Rate My Professors, but better. **still a work in progress
 
 ## Vision
 
-This is a project I thought about startig a few years ago. It's along the same idea as the Rate my Professors site, but instead of actual helpful cagegories, like level of difficulty or if attendence is required, the only two criteria are "Wholesomeness" -  the measure of how pure, selfless, considerate, etc. a professor is - and "Memeability" - how well the professor can be made into a meme or inside joke.
+This is a project I thought about starting a few years ago. It's along the same idea as the Rate my Professors site, but instead of actual helpful categories, like level of difficulty or if attendance is required, the only two criteria are "Wholesomeness" -  the measure of how pure, selfless, considerate, etc. a professor is - and "Memeability" - how well the professor can be made into a meme or inside joke.
 
 ## What's here
 
